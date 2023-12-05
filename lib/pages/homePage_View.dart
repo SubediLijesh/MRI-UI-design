@@ -37,7 +37,7 @@ class _HomepageViewState extends State<HomepageView> {
   Widget build(BuildContext context) {
     final List<Widget> pages = [
       const ScannerView(),
-      const AvailableTumor(),
+      const TumorListScreen(),
       const AboutThisApp(),
     ];
 

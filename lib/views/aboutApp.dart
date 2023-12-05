@@ -17,10 +17,12 @@ class _AboutThisAppState extends State<AboutThisApp> {
         //centerTitle: true,
         leading: const Icon(
           FontAwesomeIcons.brain,
+          color: Colors.white,
         ),
         title: Text(
           'About this App',
           style: TextStyle(
+            color: Colors.white,
             fontSize: 20.0,
             letterSpacing: 1,
           ),
