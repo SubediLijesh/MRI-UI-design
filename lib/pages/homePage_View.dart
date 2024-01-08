@@ -83,7 +83,7 @@ class _HomepageViewState extends State<HomepageView> {
               navButton(
                 context,
                 icon: FontAwesomeIcons.magnifyingGlass,
-                text: 'Available Breeds',
+                text: 'Available Tumors',
               ),
               navButton(
                 context,

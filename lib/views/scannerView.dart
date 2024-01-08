@@ -10,8 +10,6 @@ class ScannerView extends StatefulWidget {
 class _ScannerViewState extends State<ScannerView> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Scanner view'),
-    );
+    return Text('scanner view');
   }
 }

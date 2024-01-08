@@ -107,11 +107,11 @@ class _AboutThisAppState extends State<AboutThisApp> {
                     title: GestureDetector(
                       onTap: () {
                         // final Uri url = Uri.parse(
-                        //     'https://github.com/thisiskritartha/Dog-Breed-Classification');
+                        //     'https://github.com/SubediLijesh/MRI-UI-design');
                         // launchUrl(url);
                       },
-                      child: Text(
-                        'Dog-Breed-Classification',
+                      child: const Text(
+                        'Mri Tumor Detection',
                         style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w500,
@@ -124,7 +124,7 @@ class _AboutThisAppState extends State<AboutThisApp> {
             ),
             Container(
               padding: EdgeInsets.all(4.0),
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
